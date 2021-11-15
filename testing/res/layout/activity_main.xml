@@ -8,7 +8,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/Header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff3310"
+        android:background="#ff4285f4"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
@@ -32,8 +32,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_marginTop="40dp"
         android:background="@drawable/custom_input"
         android:paddingLeft="10sp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"/>
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
 
     <EditText
         android:id="@+id/DOB"
@@ -51,8 +51,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_marginTop="30dp"
         android:background="@drawable/custom_input"
         android:paddingLeft="10sp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"/>
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
 
     <Button
         android:id="@+id/Check"
