@@ -35,8 +35,8 @@ given for names and then write your birth year in the
 input box directly below that of the names, then click 
 __CHECK__. In the __*Display Box*__, you're automatically going 
 to see the following message: __*"Hello there Oladele Precious, this
-year is your 24 year on Earth."*__ or __*"Hello there Prince Codes, this
-year is your 24 year on Earth."*__ <br /> 
+year makes you 24 years old."*__ or __*"Hello there Prince Codes, this
+year makes you 24 years old."*__ <br /> 
 
 The number 24 is gotten
 by simply subtracting your birth year from the current year.<br />
