@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff3310"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/Title"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:textColorHint="#aaa"
+        android:textCursorDrawable="@drawable/custom_cursor"
+        android:layout_below="@id/Header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="10sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:textColorHint="#aaa"
+        android:hint="Enter your year of birth"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/custom_cursor"
+        android:layout_below="@id/Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="10sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <Button
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECK"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_below="@id/DOB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:onClick="displayMessage"/>
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_below="@id/Check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/Result_bg"
+        android:paddingLeft="5dp"/>
+
+        <Button
+        android:id="@+id/Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_below="@id/Result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:onClick="ClearAll"/>
+
+        <TextView
+        android:id="@+id/Footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Made to refresh memory and out of boredom"
+        android:textSize="13sp"
+        android:textColor="#333333"
+        android:layout_below="@id/Clear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
